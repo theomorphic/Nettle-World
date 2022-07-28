@@ -1,0 +1,116 @@
+@font-face {
+  font-family: Pufony;
+  src: url(/files/Pufony-1.otf);
+}
+body {
+  font-family: Pufony;
+  text-transform: uppercase;
+  font-size: 18px;
+  min-width: 800px;
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: azure;
+}
+
+header,
+footer {
+  background-color: rgb(119, 158, 158);
+  height: 50px;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 60%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main a {
+  display: inline-block;
+  background-color: rgb(228, 18, 18);
+  color: white;
+  padding: 0.8em;
+  margin-top: 2em;
+}
+main .nettle_img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .nettle_img .nettle_pic {
+  height: 300px;
+}
+main .btn_place {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+main .btn_place a {
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 5%;
+  border: 2px solid black;
+  background-color: rgb(119, 158, 158);
+  box-shadow: 0px 1px 2px black;
+  transition: all 0.3s ease;
+}
+main .btn_place a:hover {
+  background-color: rgb(95, 153, 153);
+  transition: 0.4s;
+}
+main .btn_place a:active {
+  background-color: rgb(76, 121, 121);
+  transition: 0.4s;
+}
+
+footer {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: lowercase;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+footer a:hover {
+  font-size: 30px;
+  transition: 0.4s;
+}
+
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}/*# sourceMappingURL=style.css.map */
