@@ -13,6 +13,10 @@ body {
   display: flex;
   flex-direction: column;
   background-color: azure;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 a {
